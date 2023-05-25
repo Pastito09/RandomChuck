@@ -16,9 +16,11 @@ export const BuscadorDeFrases = () => {
         <Grid 
             item
             className="box-shadow"
-            xs={ 3 }
+
+            xs={ 12 }
             sx={{
-                width: { sd: 450 }, 
+                minWidth: '-webkit-fill-available',
+                display: 'block',
                 backgroundColor: 'white', 
                 padding: 3, 
                 borderRadius: 2 

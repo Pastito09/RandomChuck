@@ -7,7 +7,7 @@ import { EstadoContexto } from "../contexto/EstadoContexto";
 export const CajaFrases = () => {
 
     const { newValue } = useContext(EstadoContexto);
-
+    
   return (
     <>
         <Grid 
